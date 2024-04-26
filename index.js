@@ -3,7 +3,8 @@ function greeting() {
   window.alert(`Hello ${usr}`);
 
 }
-greeting()
+greeting();
+
    document.addEventListener('DOMContentLoaded', (event) => {
         const savedName = localStorage.getItem('userName');
         if(savedName){
