@@ -1,10 +1,3 @@
-function greeting() {
-  usr = window.prompt("Enter usrname");
-  window.alert(`Hello ${usr}`);
-
-}
-greeting();
-
    document.addEventListener('DOMContentLoaded', (event) => {
         const savedName = localStorage.getItem('userName');
         if(savedName){
