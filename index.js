@@ -1,10 +1,10 @@
-   document.addEventListener('DOMContentLoaded', (event) => {
-        const savedName = localStorage.getItem('userName');
-        if(savedName){
-            document.getElementById('nameForm').style.display = 'none';
-            document.getElementById('loginForm').style.display = 'block';
-        }
-    });
+document.addEventListener('DOMContentLoaded', (event) => {
+    const savedName = localStorage.getItem('userName');
+      if(savedName){
+         document.getElementById('nameForm').style.display = 'none';
+         document.getElementById('loginForm').style.display = 'block';
+      }
+});
     document.getElementById('nameForm').addEventListener('submit', function(event) {
         event.preventDefault();
 
